@@ -1,6 +1,6 @@
 {
   "name": "object-to-path-values",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/index.js",
   "scripts": {
     "lint": "eslint . --ext js,jsx,ts,tsx",

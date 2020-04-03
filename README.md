@@ -1,5 +1,7 @@
 The package allows to parse plain javascript object into an array of { path, value } tuples, i.e.
 ```
+    import { parseTree } from 'object-to-path-values'
+
     const pathValues = parseTree({
       key1: 'a1',
       key2: {
@@ -28,6 +30,8 @@ The package allows to parse plain javascript object into an array of { path, val
 
 It also allows you to go back from pathValues to object, i.e.
 ```
+    import { toTree } from 'object-to-path-values'
+
     const tree = toTree([
       { path: ['key1'], value: 'a1' },
       { path: ['key2', 0], value: 'a2' },
