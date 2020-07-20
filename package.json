@@ -11,7 +11,7 @@
     "clean-all": "yarn clean && rm -rf node_modules/"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "ramda": "^0.27.0"
   },
   "devDependencies": {
